@@ -2,12 +2,10 @@ class Cafe:
     def __init__(self, cafe_name, coffee_type):
         self.cafe_name = cafe_name
         self.coffee_type = coffee_type
-
     def describe_cafe(self):
         print("Nama Cafe:", self.cafe_name)
         print("Jenis Kopi:", self.coffee_type)
         print()
-
     def open_cafe(self):
         print(self.cafe_name, "sekarang buka!")
 
@@ -29,14 +27,12 @@ class User:
         self.age = age
         self.email = email
         self.city = city
-
     def describe_user(self):
         print("Nama:", self.first_name, self.last_name)
         print("Umur:", self.age)
         print("Email:", self.email)
         print("Kota:", self.city)
         print()
-
     def greet_user(self):
         print("Halo", self.first_name, "! Selamat datang.\n")
 
